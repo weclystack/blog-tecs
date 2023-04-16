@@ -38,5 +38,3 @@ fields:
   type: field_group
   config: {}
   label: ds
-pages:
-- content/post/testing.md
