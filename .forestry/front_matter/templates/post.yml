@@ -25,5 +25,3 @@ fields:
     schema:
       format: markdown
   label: summary
-pages:
-- content/post/what-s-new-in-kali-linux-2023.1.md
