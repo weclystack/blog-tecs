@@ -2,12 +2,21 @@
 label: post
 hide_body: false
 fields:
-- name: hello
+- name: title
   type: text
   config:
     required: false
-  label: hello
-- name: hellos
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: textarea
   type: textarea
   default: ''
   config:
@@ -15,26 +24,4 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: hello
-  description: ds
-- name: as
-  type: file
-  config:
-    maxSize: 64
-  label: as
-- name: d
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: d
-- name: ds
-  type: field_group
-  config: {}
-  label: ds
+  label: textarea
