@@ -1,0 +1,42 @@
+baseURL = "https://blog.thecyberswat.com"
+languageCode = "en"
+title = "Thecyberswat | Blog"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Thecyberswat "
+  description = "Defend Your Online Presence, Cyber Security is Your Best Defense."
+  github = "thecyberswat"
+  twitter = "thecyberswat"
+  linkedin = "thecyberswat"
+  instagram = "thecyberswat"
+  email = "heyy@thecyberswat.com"
+  url = "https://thecyberswat.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/avatar.png"
+  location = "Jakarta City"
+  userStatusEmoji = "😀"
+  enableGitalk = false
+    
+  [params.gitalk]
+    clientID = "Your client ID" # Your client ID
+    clientSecret = "Your client secret" # Your client secret
+    repo = "LuvSia" 
+    owner = "ventusoon" 
+    admin = "ventusoon" 
+    id = "location.pathname" 
+    labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
+    perPage = 15 # Pagination size, with maximum 100.
+    pagerDirection = "last" 
+    createIssueManually = true 
+    distractionFreeMode = false    
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" 
+  
+ 
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
