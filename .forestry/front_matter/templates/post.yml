@@ -1,4 +1,40 @@
 ---
 label: post
 hide_body: false
-fields: []
+fields:
+- name: hello
+  type: text
+  config:
+    required: false
+  label: hello
+- name: hellos
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: hello
+  description: ds
+- name: as
+  type: file
+  config:
+    maxSize: 64
+  label: as
+- name: d
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: d
+- name: ds
+  type: field_group
+  config: {}
+  label: ds
